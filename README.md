@@ -1,6 +1,8 @@
+We are here trying to learn how to write a Jupyter kernel.
 
+To start, 
 
 ```bash=
   jupyter kernel install --KernelManager.kernel_cmd="['./kernel_exe.py','{connection_file}']" &
-  jupyter console --existing kernel-05590ac0-8465-4eb1-b849-4fddc407eb8d.json
+  jupyter console --existing <whatever the previous command spits out as the runtime>
 ```
